@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.postimg.cc/rwSd6qSD/favicon-quadrados.png" type="image/png">
+    <title>Movimentação de personagem</title>
+    <style>
+        #personagem{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Movimentação do personagem</h1>
+    <div id="personagem"></div>
+    <button onclick="mover('esquerda')">Esquerda</button>
+    <button onclick="mover('direita')">Direita</button>
+    <button onclick="mover('cima')">Cima</button>
+    <button onclick="mover('baixo')">Baixo</button>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
